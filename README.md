@@ -8,6 +8,7 @@ The data products are all in the `data/` folder.  The main one of interest is `L
 1. `i` selects the higgsino mass
 2. `j` the radial bin
 3. `k` the signal strength 
+
 Additional files are provided in the data folder for interpreting these quantities.
 
 In each annulus the annihilation cross-section has a degenerate effect on the likelihood with the J-factor. For reference, we provide the binned NFW J-factors in the data folder that go into `LL_rad_bins_mass`. Given these J-factors it is straightforward to reweight the data cube in order to consider alternate dark matter density profiles.
