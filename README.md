@@ -4,7 +4,7 @@ This repository provides the essential data products from the paper https://arxi
 
 This repository contains a data cube with all of the relevant likelihood evaluations for the purpose of both reproducing our results and for applying them to difference scenarios. We present the log likelihood values in each annulus as a function of the signal strength (i.e., the annihilation cross-section) and the putative higgsino mass. 
 
-The data products are all in the `data/` folder.  The main one of interest is `LL_rad_bins_mass[i,j,k]`:
+The data products are all in the `data/` folder.  The main data product of interest is `LL_cube.npy`, which contains a 3D numpy array `LL_rad_bins_mass[i,j,k]`:
 1. `i` selects the higgsino mass
 2. `j` the radial bin
 3. `k` the signal strength 
